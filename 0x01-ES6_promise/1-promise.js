@@ -1,4 +1,3 @@
-/* eslint-disable prefer-promise-reject-errors */
 export default function getFullResponseFromAPI(success) {
   return new Promise((resolve, reject) => {
     if (success) {
