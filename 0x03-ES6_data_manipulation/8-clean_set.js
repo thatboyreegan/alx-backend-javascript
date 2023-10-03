@@ -18,6 +18,6 @@ export default function cleanSet(set, startString) {
       if (substring) array.push(substring);
     }
   });
-  
+
   return array.join('-');
 }

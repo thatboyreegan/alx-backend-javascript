@@ -26,7 +26,7 @@ module.exports = {
       'error',
       'LabeledStatement',
       'WithStatement',
-          ],
+    ],
   },
   overrides:[
     {
