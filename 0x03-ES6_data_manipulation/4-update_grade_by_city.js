@@ -1,9 +1,5 @@
-export default function updateStudentGradeByCity(
-  studentsArray,
-  city,
-  newGrades,
-) {
-  const updatedStudents = studentsArray
+export default function updateStudentGradeByCity(studentsArray, city, newGrades) {
+  const Students = studentsArray
     .filter((student) => student.location === city)
     .map((student) => {
       const studentGrade = newGrades.filter(
@@ -16,5 +12,5 @@ export default function updateStudentGradeByCity(
       return newStudent;
     });
 
-  return updatedStudents;
+  return Students;
 }

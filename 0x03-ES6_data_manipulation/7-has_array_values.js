@@ -1,12 +1,12 @@
 export default function hasValuesFromArray(set, array) {
-  let x = true;
+  let bool = true;
 
   for (const value of array) {
     if (!set.has(value)) {
-      x = false;
+      bool = false;
       break;
     }
   }
 
-  return x;
+  return bool;
 }
